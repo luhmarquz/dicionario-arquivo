@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    cursor: pointer;
+}
+body{
+    background-color: #F4EBD0;
+}
+
+.linha{
+    background-color: #B68D40;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#linha{
+    color: #B68D40;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #B68D40;
+    color: #F4EBD0;
+}
+main{
+width: 100vw;
+height: 50vh;
+}
+
+.teste{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.palavra{
+    display: flex;
+    padding: 10px;
+}
+
+.titulo-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.traducao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.definicao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B68D40;
+    color: #F4EBD0;
+}
+
+.exemplo-ingles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.exemplo-pt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.p-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.audio-modal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal0{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal1{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal2{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal3{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal4{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal5{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal6{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal7{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal8{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#modal9{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 20px;
+    display: none;
+    
+}
+
+#centralizar{
+    justify-content: center;
+    display: flex;
+}
+
+#teste-conto{
+    background-color: #B68D40;
+}
+.conto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+
+}
+.titulo-conto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #F4EBD0;
+}
+
+.paragrafo-conto{
+    display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+    justify-content: center;
+    background-color: #F4EBD0;
+
+}
+
+
+
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px;
+
+}
